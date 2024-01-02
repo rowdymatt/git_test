@@ -1,0 +1,22 @@
+This is a reference list of the most commonly used Git commands. (You might consider 
+bookmarking this handy page.) Try to familiarize yourself witht he commands so you can 
+eventually remember them all:
+
+- Commands related to a remote repository:
+    - git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+    - git push OR git push origin main
+
+- Commands realted tot he workflow:
+    - git add .
+    - git commit -m "A message describing what you have done to make this snapshot different"
+
+- Commands related to checking status or log history:
+    - git status
+    - git log
+
+The basic Git syntax is program | action | destination
+For Example:
+    - git add . is read as git | add | . where the period represents everything in the
+    current directory;
+    - git commit -m "message" is read as git | commit -m | "message"; and
+    - git status is read as git | status | (no destination).
