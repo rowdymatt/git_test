@@ -10,3 +10,8 @@ to check. to add ALL files in the working directory, type "git add ."
 PUSHED later.
 
 4. "git push" PUSHES all COMMITS to the github REPOSITORY for approval.
+
+5. "git log" will print the log of your COMMITS since your last PUSH. TO SAVE THIS log
+(or if it doesn't print the entire log, was only printing last 2 commits for me)
+press the 's' key, then type a file name with the ".txt" extension to save the log
+in the current working directory. When finished, quit with the 'q' key.
