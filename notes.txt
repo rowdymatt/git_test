@@ -1,18 +1,21 @@
 IMPORTANT LESSONS TO REMEMBER FROM THIS SECTION!!!!
 
+open the current working directory in VS Code by typing "code ."
+
+
 1. "git status" will tell you if you're working with any differences from your last COMMIT
 NOT the latest version/push (afaik)
 
-2. "git add" adds files to the sTAGING AREA which you can check by typing "git status"
+2. "git add" adds files to the STAGING AREA which you can check by typing "git status"
 to check. to add ALL files in the working directory, type "git add ."
 
-3. 'git commit -m "YOUR MESSAGE HERE"' COMMITS all the changes to your local REPOSITORY to be
+3. 'git commit -m "/.YOUR MESSAGE HERE./"' COMMITS all the changes to your local REPOSITORY to be
 PUSHED later.
 
 4. "git push" PUSHES all COMMITS to the github REPOSITORY for approval.
 THE ODIN PROJECT MENTIONS "git push origin main" because quote: "Since you are not dealing
 with another branch other than main, or a different remote as mentioned above, you don't
-have to use that."
+have to use that." probably relates to pushing changes as different branches of a repo.
 
 5. "git log" will print the log of your COMMITS since your last PUSH. TO SAVE THIS log
 (or if it doesn't print the entire log, was only printing last 2 commits for me)
