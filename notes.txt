@@ -1,0 +1,12 @@
+IMPORTANT LESSONS TO REMEMBER FROM THIS SECTION!!!!
+
+1. "git status" will tell you if you're working with any differences from your last COMMIT
+NOT the latest version/push (afaik)
+
+2. "git add" adds files to the sTAGING AREA which you can check by typing "git status"
+to check. to add ALL files in the working directory, type "git add ."
+
+3. 'git commit -m "YOUR MESSAGE HERE"' COMMITS all the changes to your local REPOSITORY to be
+PUSHED later.
+
+4. "git push" PUSHES all COMMITS to the github REPOSITORY for approval.
